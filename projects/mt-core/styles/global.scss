@@ -1,0 +1,26 @@
+ion-header::after {
+    display: none;
+}
+
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-primary-contrast);
+}
+
+ion-tab-bar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-primary-contrast);
+    --border: none;
+
+    ion-tab-button {
+        --color-selected: var(--ion-color-primary-contrast);
+    }
+
+    ion-tab-button.tab-selected {
+        --background: var(--ion-color-tertiary);
+    }
+}
+
+ion-content {
+    --background: #E5E5E5;
+}

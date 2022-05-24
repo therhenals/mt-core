@@ -1,0 +1,32 @@
+.balance {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin: 0px;
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.25px;
+    }
+
+    .value {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        p {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.15px;
+        }
+
+        ion-icon {
+            font-size: 24px;
+        }
+    }
+}
