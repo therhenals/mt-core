@@ -11,7 +11,7 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "@thr-dev/mt-core": [
+      "@therhenals/mt-core": [
         "dist/mt-core/mt-core",
         "dist/mt-core",
         "projects/mt-core/src/public-api"

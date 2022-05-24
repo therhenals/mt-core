@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-import { MtCoreModule } from '@thr-dev/mt-core';
+import { MtCoreModule } from '@therhenals/mt-core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

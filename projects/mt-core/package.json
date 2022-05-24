@@ -1,6 +1,17 @@
 {
-  "name": "@thr-dev/mt-core",
-  "version": "0.0.4",
+  "name": "@therhenals/mt-core",
+  "version": "0.0.1",
+  "author": {
+    "name": "Luis Rhenals",
+    "email": "therhenalsl@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therhenals/mt-core"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/therhenals"
+  },
   "scripts": {
     "build:sass": "sass styles:css"
   },

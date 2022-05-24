@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
-import { MtCoreModule } from '@thr-dev/mt-core';
+import { MtCoreModule } from '@therhenals/mt-core';
 
 @NgModule({
   imports: [
