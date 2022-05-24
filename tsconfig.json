@@ -12,8 +12,6 @@
     "importHelpers": true,
     "paths": {
       "@therhenals/mt-core": [
-        "dist/mt-core/mt-core",
-        "dist/mt-core",
         "projects/mt-core/src/public-api"
       ]
     },
