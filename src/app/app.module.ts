@@ -6,7 +6,6 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { MtCoreModule, MtRoutingModule, MtCoreComponent } from '@therhenals/mt-core';
 
 @NgModule({
-  entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
