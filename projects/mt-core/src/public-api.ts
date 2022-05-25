@@ -3,6 +3,8 @@
  */
 
 export * from './lib/mt-core.module';
+export * from './lib/mt-routing.module';
+export * from './lib/mt-core.component';
 
 export * from './lib/components';
 export * from './lib/components/components.module';

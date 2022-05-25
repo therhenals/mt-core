@@ -3,15 +3,18 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { BalanceComponent } from './balance/balance.component';
 import { BackgroundComponent } from './background/background.component';
+import { BackButtonComponent } from './back-button/back-button.component';
 
 @NgModule({
   declarations: [
     BalanceComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    BackButtonComponent
   ],
   exports: [
     BalanceComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    BackButtonComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <mt-back-button></mt-back-button>
+    </ion-buttons>
+    <ion-title>Tu cuenta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <mt-background [height]="42">
+    <div class="layout">
+      <ion-item detail lines="none">
+        <ion-icon src="mt/icons/store.svg" slot="start"></ion-icon>
+        <ion-label>
+          Cuentas asociadas
+        </ion-label>
+      </ion-item>
+
+      <ion-item detail lines="none">
+        <ion-icon src="mt/icons/multiple-users.svg" slot="start"></ion-icon>
+        <ion-label>
+          Usuarios y Roles
+        </ion-label>
+      </ion-item>
+
+      <ion-item detail lines="none">
+        <ion-icon src="mt/icons/multiple-users.svg" slot="start"></ion-icon>
+        <ion-label>
+          Administrar Sesiones
+        </ion-label>
+      </ion-item>
+
+      <ion-item detail lines="none">
+        <ion-icon src="mt/icons/notification.svg" slot="start"></ion-icon>
+        <ion-label>
+          Novedades
+        </ion-label>
+      </ion-item>
+
+      <ion-item detail lines="none">
+        <ion-icon src="mt/icons/logout.svg" slot="start"></ion-icon>
+        <ion-label>
+          Cerrar sesión
+        </ion-label>
+      </ion-item>
+    </div>
+  </mt-background>
+</ion-content>
