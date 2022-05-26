@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.therhenals.mtcore;
 
 import com.getcapacitor.BridgeActivity;
 

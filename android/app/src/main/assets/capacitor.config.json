@@ -1,9 +1,17 @@
 {
-	"appId": "io.ionic.starter",
+	"appId": "com.therhenals.mtcore",
 	"appName": "mt-core",
 	"webDir": "www",
 	"bundledWebRuntime": false,
-	"server": {
-		"url": "http://192.168.0.7:8100"
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 3000,
+			"launchAutoHide": false,
+			"backgroundColor": "#000000",
+			"androidScaleType": "CENTER_CROP",
+			"showSpinner": false,
+			"splashFullScreen": false,
+			"splashImmersive": false
+		}
 	}
 }

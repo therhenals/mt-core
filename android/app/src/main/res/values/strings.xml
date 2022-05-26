@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">mt-core</string>
-    <string name="title_activity_main">mt-core</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">MT Core</string>
+    <string name="title_activity_main">MT Core</string>
+    <string name="package_name">com.therhenals.mtcore</string>
+    <string name="custom_url_scheme">com.therhenals.mtcore</string>
 </resources>

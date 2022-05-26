@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="profile-container">
+    <h2 *ngIf="user$ | async as user">{{ user.name }}</h2>
+    <p *ngIf="user$ | async as user">{{ user.email }}</p>
+
+    <ion-button *ngIf="!(user$ | async)" (click)="login()">
+      Login
+    </ion-button>
+
+    <ion-button *ngIf="(user$ | async)" (click)="logout()">
+      Logout
+    </ion-button>
+  </div>
+
+
+</ion-content>
